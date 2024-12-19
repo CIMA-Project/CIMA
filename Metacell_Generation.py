@@ -1,3 +1,14 @@
+"""
+**************************************
+*  @Author  :   Yuhui Zheng
+*  @Time    :   2024/12/19
+*  @Project :   CIMA
+*  @FileName:   Metacell_Generation.py
+*  @Summary :   Use the SEACells core to assign metacell labels to each cell type in each sample 
+                and generate Metacell for scRNA and scATAC.
+**************************************
+"""
+
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import anndata as ad
